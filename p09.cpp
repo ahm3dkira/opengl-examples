@@ -62,13 +62,13 @@ void display() {
    glEnd();
 
    // x, y axis
-   glColor3f(0.5f, 0.5f, 0.5f);
-   glBegin(GL_LINES);
-      glVertex2f(1,0);
-      glVertex2f(-1,0);
-      glVertex2f(0,1);
-      glVertex2f(0,-1);
-   glEnd();
+   // glColor3f(0.5f, 0.5f, 0.5f);
+   // glBegin(GL_LINES);
+   //    glVertex2f(1,0);
+   //    glVertex2f(-1,0);
+   //    glVertex2f(0,1);
+   //    glVertex2f(0,-1);
+   // glEnd();
 
  
    glFlush();
